@@ -20,3 +20,11 @@ function checkWindowSize() {
 menuTrigger.onclick = menuToggle;
 
 window.onresize = checkWindowSize;
+
+const hamburger = document.querySelector(".hamburger");
+const menuNav = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click",() =>{
+  hamburger.classlist.menuToggle("active");
+  menuNav.classlist.menuToggle("active"); 
+})
