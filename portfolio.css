@@ -1,0 +1,70 @@
+body {
+  background: #E6E6FA;
+  text-align: center;
+  font-family: "Georgia", "Arial", sans-serif;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+img {width:80%;}
+
+nav ul, .bigNumberList, .iconList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+nav ul {
+  height: 100%;
+}
+
+nav li, .bigNumberList li, .iconList li {
+  width: 100%;
+  height: 33.333333%;
+  float: left;
+  display: block;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav a {
+    color: #4B0082;
+    font-weight: bold;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #4B0082}
+
+    @media (min-width: 425px) {
+
+    .iconList li {
+      width: 50%;
+    }
+
+    }
+
+    @media (min-width: 655px) {
+      nav {
+        height: 3rem;
+      }
+      nav li {
+        height: 100%;
+      }
+  
+    }
+
+    @media (min-width: 850px) {
+
+    .iconList li {
+      width: 20%;
+    }
+
+    }
